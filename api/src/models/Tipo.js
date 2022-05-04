@@ -5,12 +5,13 @@ module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('tipo', {
     slot: {
-        type: DataTypes.INTEGER,
-        primaryKey: true,
-        autoIncrement: true,
-    },
-    name: {
-        type: DataTypes.STRING,
-        unique: true,
-    }
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true,
+  },
+  name: {
+      type: DataTypes.STRING,
+      unique: true,
+  }
+
   })}
